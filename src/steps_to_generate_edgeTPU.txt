@@ -1,0 +1,4 @@
+1 - Export the frozen graph of the deeprehab_101.h5 model using the jupyter notebook freezeGraph.ipynb . It may require creating a new conda environment with Tensorflow 1.9.
+2 - Convert the exported frozen graph to a tflite model using the jupyter notebook convertToTFLITE.ipynb . It requires to create a new conda environment using Tensorflow nightly 3.5.
+3 - Install the edgetpu compiler following: https://coral.ai/docs/edgetpu/compiler/ .
+4 - Run the command 'edgetpu_compiler [options] model...' , using your own options and the name of the tflite model.
