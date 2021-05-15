@@ -1,6 +1,6 @@
-# Foot-PoseNet
+# DeepRehab
 
-This is a Keras implementation of a modified version of [PersonLab](https://arxiv.org/abs/1803.08225) called **Foot-PoseNet** for Multi-Person Pose Estimation.
+This is a Keras implementation of a modified version of [PersonLab](https://arxiv.org/abs/1803.08225) called **DeepRehab** for Multi-Person Pose Estimation.
 The model predicts heatmaps and offsets which allow for computation of 23 joints also known as keypoints, 17 for face and body, and 6 for feet. See the paper for more details. Our implementation can run at high speed on the Edge using Edge TPU devices.
 
 
