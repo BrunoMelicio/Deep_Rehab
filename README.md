@@ -14,7 +14,7 @@ The model predicts heatmaps and offsets which allow for computation of 23 joints
 ### Quick Start
 
 * Run 'conda env create -f environment.yml'.
-* Run 'conda activate footposenet'
+* Run 'conda activate gitfposenet2'
 * Download the [model](https://drive.google.com/file/d/1GydiTWBO9njcIRsc7IzOgUPyi_HQ89k_/view?usp=sharing) and put it inside the `/src/models/` folder.
 * Run 'python demo.py' to run the demo and visualize the results inside `/src/demo_results/` or run 'python demo_video.py' to demo on a video.
 
